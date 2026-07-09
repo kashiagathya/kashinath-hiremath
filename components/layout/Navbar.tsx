@@ -49,7 +49,7 @@ export default function Navbar() {
           </a>
 
           <a
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/kashihiremath/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-700 transition hover:text-blue-600"
