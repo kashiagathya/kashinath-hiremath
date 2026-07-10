@@ -1,0 +1,381 @@
+{
+    "settings": {
+        "websiteName": "Kashinath Hiremath Portfolio",
+        "version": "1.0.0",
+        "theme": "light",
+        "defaultRoute": "/",
+        "dashboardColumns": 3,
+        "showResume": true,
+        "showContactForm": true,
+        "showAIAssistant": false,
+        "showBlogs": false
+    },
+    "personal": {
+        "name": "Kashinath Hiremath",
+        "designation": "Lead Engineer",
+        "headline": "Frontend Engineer | AI Enthusiast | Automotive Software Developer",
+        "experience": "10+ Years",
+        "location": "Bengaluru, Karnataka, India",
+        "email": "kashi.agathya@gmail.com",
+        "phone": "+91 9035672777",
+        "profileImage": "/images/profile.jpg",
+        "resume": "/resume/Kashinath-Hiremath.pdf"
+    },
+    "social": {
+        "github": "https://github.com/kashiagathya",
+        "linkedin": "https://linkedin.com/in/kashinathhiremath",
+        "email": "mailto:kashi.agathya@gmail.com"
+    },
+    "sidebar": {
+        "collapsed": false,
+        "menu": [
+            {
+                "title": "Home",
+                "route": "/",
+                "icon": "Home"
+            },
+            {
+                "title": "About",
+                "route": "/about",
+                "icon": "User"
+            },
+            {
+                "title": "Experience",
+                "route": "/experience",
+                "icon": "Briefcase"
+            },
+            {
+                "title": "Projects",
+                "route": "/projects",
+                "icon": "FolderGit2"
+            },
+            {
+                "title": "Skills",
+                "route": "/skills",
+                "icon": "BrainCircuit"
+            },
+            {
+                "title": "Resume",
+                "route": "/resume",
+                "icon": "FileText"
+            },
+            {
+                "title": "Contact",
+                "route": "/contact",
+                "icon": "Mail"
+            }
+        ]
+    },
+    "dashboard": [
+  {
+    "id": 1,
+    "title": "About",
+    "description": "Professional summary and career overview.",
+    "icon": "User",
+    "href": "/about"
+  },
+  {
+    "id": 2,
+    "title": "Experience",
+    "description": "10+ years across Automotive, Banking and Transportation.",
+    "icon": "Briefcase",
+    "href": "/experience"
+  },
+  {
+    "id": 3,
+    "title": "Projects",
+    "description": "Enterprise applications delivered for global organizations.",
+    "icon": "FolderGit2",
+    "href": "/projects"
+  },
+  {
+    "id": 4,
+    "title": "Skills",
+    "description": "Frontend, Backend, Cloud and AI technologies.",
+    "icon": "BrainCircuit",
+    "href": "/skills"
+  },
+  {
+    "id": 5,
+    "title": "Resume",
+    "description": "Download my latest resume.",
+    "icon": "FileText",
+    "href": "/resume"
+  },
+  {
+    "id": 6,
+    "title": "Contact",
+    "description": "Let's connect and build something together.",
+    "icon": "Mail",
+    "href": "/contact"
+  }
+],
+    "summary": {
+        "experience": "10+",
+        "companies": 6,
+        "projects": 20,
+        "skills": 30,
+        "certifications": 5
+    },
+    "about": {
+        "title": "About Me",
+        "description": "Lead Engineer with over 10 years of experience in Automotive, Banking, Transportation and Enterprise Software Development. Passionate about building scalable frontend applications, AI-powered solutions and cloud-native systems."
+    },
+    "experience": [
+        {
+            "id": "exp-001",
+            "company": "Stellantis",
+            "role": "Lead Engineer",
+            "duration": "2025 - Present",
+            "location": "Bengaluru, India",
+            "description": "Leading frontend development for connected vehicle and infotainment platforms."
+        },
+        {
+            "id": "exp-002",
+            "company": "STL Digital",
+            "role": "Technical Lead",
+            "duration": "2022 - 2025",
+            "location": "Bengaluru, India",
+            "description": "Built enterprise web applications and led frontend architecture."
+        },
+        {
+            "id": "exp-003",
+            "company": "Atos / Eviden",
+            "role": "Senior Consultant",
+            "duration": "2018 - 2022",
+            "location": "Bengaluru, India",
+            "description": "Developed enterprise applications for global automotive and banking clients."
+        }
+    ],
+    "projects": [
+        {
+            "id": "proj-001",
+            "title": "Connected Vehicle Platform",
+            "client": "Stellantis",
+            "status": "Ongoing",
+            "technology": [
+                "React",
+                "TypeScript",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "proj-002",
+            "title": "AI Resume Analyzer",
+            "client": "Personal Project",
+            "status": "Completed",
+            "technology": [
+                "React",
+                "Express",
+                "MongoDB",
+                "Gemini AI"
+            ]
+        },
+        {
+            "id": "proj-003",
+            "title": "Notification as a Service",
+            "client": "CN Rail",
+            "status": "Completed",
+            "technology": [
+                "Angular",
+                "NativeScript",
+                "Kinvey"
+            ]
+        }
+    ],
+    "skills": {
+        "frontend": [
+            {
+                "id": "fe-001",
+                "name": "HTML5"
+            },
+            {
+                "id": "fe-002",
+                "name": "CSS3"
+            },
+            {
+                "id": "fe-003",
+                "name": "JavaScript"
+            },
+            {
+                "id": "fe-004",
+                "name": "TypeScript"
+            },
+            {
+                "id": "fe-005",
+                "name": "Angular"
+            },
+            {
+                "id": "fe-006",
+                "name": "React"
+            },
+            {
+                "id": "fe-007",
+                "name": "Next.js"
+            },
+            {
+                "id": "fe-008",
+                "name": "Tailwind CSS"
+            }
+        ],
+        "backend": [
+            {
+                "id": "be-001",
+                "name": "Node.js"
+            },
+            {
+                "id": "be-002",
+                "name": "Express.js"
+            },
+            {
+                "id": "be-003",
+                "name": "Python"
+            },
+            {
+                "id": "be-004",
+                "name": "Java"
+            }
+        ],
+        "database": [
+            {
+                "id": "db-001",
+                "name": "MongoDB"
+            },
+            {
+                "id": "db-002",
+                "name": "MySQL"
+            },
+            {
+                "id": "db-003",
+                "name": "Oracle"
+            }
+        ],
+        "cloud": [
+            {
+                "id": "cloud-001",
+                "name": "Azure"
+            },
+            {
+                "id": "cloud-002",
+                "name": "AWS"
+            },
+            {
+                "id": "cloud-003",
+                "name": "Vercel"
+            }
+        ],
+        "tools": [
+            {
+                "id": "tool-001",
+                "name": "Git"
+            },
+            {
+                "id": "tool-002",
+                "name": "GitHub"
+            },
+            {
+                "id": "tool-003",
+                "name": "JIRA"
+            },
+            {
+                "id": "tool-004",
+                "name": "Postman"
+            },
+            {
+                "id": "tool-005",
+                "name": "VS Code"
+            },
+            {
+                "id": "tool-006",
+                "name": "SonarQube"
+            },
+            {
+                "id": "tool-007",
+                "name": "Docker"
+            }
+        ],
+        "ai": [
+            {
+                "id": "ai-001",
+                "name": "OpenAI"
+            },
+            {
+                "id": "ai-002",
+                "name": "Google Gemini"
+            },
+            {
+                "id": "ai-003",
+                "name": "Prompt Engineering"
+            },
+            {
+                "id": "ai-004",
+                "name": "AI Agents"
+            },
+            {
+                "id": "ai-005",
+                "name": "MCP"
+            },
+            {
+                "id": "ai-006",
+                "name": "RAG"
+            }
+        ]
+    },
+    "education": [
+        {
+            "id": "edu-001",
+            "degree": "Bachelor of Engineering",
+            "branch": "Computer Science",
+            "college": "ABC Engineering College",
+            "year": "2009"
+        }
+    ],
+    "certifications": [
+        {
+            "id": "cert-001",
+            "name": "Azure Fundamentals",
+            "issuer": "Microsoft",
+            "year": "2024"
+        },
+        {
+            "id": "cert-002",
+            "name": "Generative AI Fundamentals",
+            "issuer": "Google",
+            "year": "2025"
+        },
+        {
+            "id": "cert-003",
+            "name": "React Advanced Development",
+            "issuer": "Udemy",
+            "year": "2023"
+        }
+    ],
+    "achievements": [
+        {
+            "id": "ach-001",
+            "title": "10+ Years Experience",
+            "description": "Enterprise software development across Automotive, Banking and Transportation."
+        },
+        {
+            "id": "ach-002",
+            "title": "20+ Enterprise Projects",
+            "description": "Successfully delivered global enterprise applications."
+        },
+        {
+            "id": "ach-003",
+            "title": "Lead Engineer",
+            "description": "Leading frontend development and mentoring engineering teams."
+        }
+    ],
+    "resume": {
+        "title": "Resume",
+        "file": "/resume/Kashinath-Hiremath.pdf",
+        "lastUpdated": "July 2026"
+    },
+    "contact": {
+        "email": "kashi.agathya@gmail.com",
+        "phone": "+91 9035672777",
+        "location": "Bengaluru",
+        "availability": "Open to opportunities"
+    }
+}

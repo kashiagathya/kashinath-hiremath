@@ -34,3 +34,34 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Architecture
+
+app/
+│
+├── page.tsx              // Dashboard (Landing Page)
+│
+├── about/page.tsx
+├── experience/page.tsx
+├── projects/page.tsx
+├── skills/page.tsx
+├── resume/page.tsx
+├── contact/page.tsx
+│
+├── data/
+│      portfolio.json     // Single source of truth
+│
+components/
+│
+├── dashboard/
+│      Dashboard.tsx
+│      DashboardGrid.tsx
+│
+├── layout/
+│      Sidebar.tsx
+│      Header.tsx
+│      MainLayout.tsx
+│
+└── shared/
+       Card.tsx
+       SectionTitle.tsx
