@@ -13,7 +13,7 @@ import {
   Mail,
 } from "lucide-react";
 
-const icons = {
+const icons: Record<string, React.ReactNode> = {
   User: <User size={24} />,
   Briefcase: <Briefcase size={24} />,
   FolderGit2: <FolderGit2 size={24} />,
@@ -32,28 +32,28 @@ export default function DashboardGrid() {
 
         <StatsCard
           title="Experience"
-          value={portfolio.summary.experience}
+          value={String(portfolio.summary.experience)}
           subtitle="Years"
           // route="/experience"
         />
 
         <StatsCard
           title="Projects"
-          value={portfolio.summary.projects}
+          value={String(portfolio.summary.projects)}
           subtitle="Completed"
           // route="/projects"
         />
 
         <StatsCard
           title="Skills"
-          value={portfolio.summary.skills}
+          value={String(portfolio.summary.skills)}
           subtitle="Technologies"
           // route="/skills"
         />
 
         <StatsCard
           title="Companies"
-          value={portfolio.summary.companies}
+          value={String(portfolio.summary.companies)}
           subtitle="Worked With"
           // route="/experience"
         />

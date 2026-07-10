@@ -39,13 +39,13 @@ export default function Hero() {
 
             <br />
 
-            I'm {profile.name}
+            I&apos;m {profile.name}
 
           </h1>
 
           <h2 className="mt-4 text-2xl font-medium text-blue-300">
 
-            {profile.title}
+            {profile.headline}
 
           </h2>
 
