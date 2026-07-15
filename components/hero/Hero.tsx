@@ -45,7 +45,7 @@ export default function Hero() {
 
           <h2 className="mt-4 text-2xl font-medium text-blue-300">
 
-            {profile.headline}
+            {profile.tagline}
 
           </h2>
 

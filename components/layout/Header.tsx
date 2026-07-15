@@ -50,8 +50,7 @@ export default function Header() {
           LinkedIn
         </a>
 
-        <a
-          href={portfolio.personal.resume}
+        <a href={portfolio.personal.resume.file}
           className="flex items-center gap-2 rounded-xl bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700"
         >
           <Download size={18} />
