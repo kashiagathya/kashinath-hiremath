@@ -1,33 +1,559 @@
 {
-    "settings": {
-        "websiteName": "Kashinath Hiremath Portfolio",
-        "version": "1.0.0",
-        "theme": "light",
-        "defaultRoute": "/",
-        "dashboardColumns": 3,
-        "showResume": true,
-        "showContactForm": true,
-        "showAIAssistant": false,
-        "showBlogs": false
-    },
     "personal": {
         "name": "Kashinath Hiremath",
-        "designation": "Lead Engineer",
-        "headline": "Frontend Engineer | AI Enthusiast | Automotive Software Developer",
-        "experience": "10+ Years",
-        "location": "Bengaluru, Karnataka, India",
-        "email": "kashi.agathya@gmail.com",
-        "phone": "+91 9035672777",
-        "profileImage": "/images/profile.jpg",
-        "resume": "/resume/Kashinath-Hiremath.pdf"
+        "photo": "/images/profile.jpg",
+        "tagline": "Lead Engineer | Frontend Architect | AI Enthusiast",
+        "bio": "Lead Engineer with 10+ years of experience building scalable enterprise applications across Automotive, Banking and Transportation domains. Experienced in React, Angular, Next.js, Node.js and AI-powered web applications with strong expertise in architecture, frontend engineering and technical leadership.",
+        "currentRole": {
+            "designation": "Lead Engineer",
+            "company": "Stellantis",
+            "department": "Software Engineering",
+            "location": "Bengaluru, Karnataka, India",
+            "startDate": "December 2025",
+            "employmentType": "Full Time"
+        },
+        "contact": {
+            "email": "kashi.agathya@gmail.com",
+            "phone": "+91-9035672777",
+            "location": "Bengaluru, Karnataka, India"
+        },
+        "social": {
+            "github": "https://github.com/kashiagathya",
+            "linkedin": "https://linkedin.com/in/kashinath-hiremath",
+            "portfolio": "https://kashinath.dev"
+        },
+        "resume": {
+            "file": "/resume/Kashinath_Hiremath_Resume.pdf",
+            "lastUpdated": "July 2026"
+        }
     },
-    "social": {
-        "github": "https://github.com/kashiagathya",
-        "linkedin": "https://linkedin.com/in/kashinathhiremath",
-        "email": "mailto:kashi.agathya@gmail.com"
+    "stats": {
+        "experienceYears": 10,
+        "projectsDelivered": 25,
+        "companiesWorked": 6,
+        "technologiesKnown": 40,
+        "certifications": 5
     },
+
+    "experience": [
+        {
+            "id": "EXP-001",
+            "company": "Stellantis",
+            "designation": "Lead Engineer",
+            "employmentType": "Full Time",
+            "location": "Bengaluru, India",
+            "duration": {
+                "from": "2025-12",
+                "to": "Present"
+            },
+            "domain": "Automotive",
+            "summary": "Leading development of enterprise-scale connected vehicle applications and localization platforms for global automotive brands.",
+            "responsibilities": [
+                "Design scalable frontend architecture using React and Next.js",
+                "Develop localization framework supporting multiple languages",
+                "Build reusable enterprise UI components",
+                "Collaborate with global product owners and architects",
+                "Review code and mentor engineering teams",
+                "Drive AI adoption within engineering workflows"
+            ],
+            "projects": [
+                "Web Widgets",
+                "Localization Platform",
+                "Connected Vehicle Platform"
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "Node.js",
+                "GraphQL",
+                "REST API",
+                "Git",
+                "Jira"
+            ]
+        },
+        {
+            "id": "EXP-002",
+            "company": "STL Digital",
+            "designation": "Lead Engineer",
+            "employmentType": "Full Time",
+            "location": "Bengaluru, India",
+            "duration": {
+                "from": "2023-08",
+                "to": "2025-12"
+            },
+            "domain": "Enterprise Solutions",
+            "summary": "Led frontend engineering teams delivering enterprise web applications and modernizing legacy platforms.",
+            "responsibilities": [
+                "Led frontend development teams",
+                "Architected Angular and React applications",
+                "Established coding standards",
+                "Performed technical design reviews",
+                "Mentored junior engineers"
+            ],
+            "projects": [
+                "WCAA",
+                "FRED"
+            ],
+            "technologies": [
+                "Angular",
+                "React",
+                "TypeScript",
+                "Node.js",
+                "Azure",
+                "Git"
+            ]
+        },
+        {
+            "id": "EXP-003",
+            "company": "Atos | Eviden",
+            "designation": "Senior Consultant",
+            "employmentType": "Full Time",
+            "location": "Bengaluru, India",
+            "duration": {
+                "from": "2021-01",
+                "to": "2023-08"
+            },
+            "domain": "Transportation",
+            "summary": "Developed enterprise applications for CN Rail and global transportation customers.",
+            "responsibilities": [
+                "Designed reusable frontend modules",
+                "Built mobile and web applications",
+                "Integrated REST services",
+                "Improved application performance"
+            ],
+            "projects": [
+                "NaaS",
+                "Mobile Core"
+            ],
+            "technologies": [
+                "Angular",
+                "NativeScript",
+                "Azure",
+                "Kinvey",
+                "Node.js"
+            ]
+        },
+        {
+            "id": "EXP-004",
+            "company": "Capgemini",
+            "designation": "Consultant",
+            "employmentType": "Full Time",
+            "location": "Bengaluru, India",
+            "duration": {
+                "from": "2018-01",
+                "to": "2020-12"
+            },
+            "domain": "Banking",
+            "summary": "Developed enterprise banking platforms for Morgan Stanley.",
+            "responsibilities": [
+                "Built enterprise Angular applications",
+                "Developed reusable UI components",
+                "Integrated backend APIs",
+                "Participated in Agile delivery"
+            ],
+            "projects": [
+                "FAST"
+            ],
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "RxJS",
+                "REST API",
+                "Jasmine"
+            ]
+        },
+        {
+            "id": "EXP-005",
+            "company": "HCL Technologies",
+            "designation": "Software Engineer",
+            "employmentType": "Full Time",
+            "location": "Bengaluru, India",
+            "duration": {
+                "from": "2016-01",
+                "to": "2017-12"
+            },
+            "domain": "Enterprise Applications",
+            "summary": "Developed and maintained enterprise web applications while strengthening frontend engineering expertise.",
+            "responsibilities": [
+                "Implemented UI modules",
+                "Resolved production issues",
+                "Worked with QA teams",
+                "Participated in sprint planning"
+            ],
+            "projects": [
+                "Enterprise Portal"
+            ],
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "jQuery",
+                "Bootstrap"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "id": "PRJ-001",
+            "name": "Web Widgets",
+            "client": "Stellantis",
+            "domain": "Automotive",
+            "role": "Lead Engineer",
+            "duration": {
+                "from": "2025-12",
+                "to": "Present"
+            },
+            "status": "Active",
+            "summary": "Developing reusable web widgets for connected vehicle infotainment platforms used across multiple Stellantis brands.",
+            "responsibilities": [
+                "Designed reusable widget architecture",
+                "Implemented React components",
+                "Integrated GraphQL and REST APIs",
+                "Optimized performance",
+                "Collaborated with global engineering teams"
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "GraphQL",
+                "Node.js",
+                "Git"
+            ]
+        },
+        {
+            "id": "PRJ-002",
+            "name": "Localization Platform",
+            "client": "Stellantis",
+            "domain": "Automotive",
+            "role": "Lead Engineer",
+            "duration": {
+                "from": "2025-12",
+                "to": "Present"
+            },
+            "status": "Active",
+            "summary": "Built a scalable localization framework supporting multiple languages for infotainment applications.",
+            "responsibilities": [
+                "Designed localization architecture",
+                "Developed reusable translation components",
+                "Managed multilingual JSON resources",
+                "Improved localization workflows"
+            ],
+            "technologies": [
+                "React",
+                "Next.js",
+                "TypeScript",
+                "JSON",
+                "Mustache"
+            ]
+        },
+        {
+            "id": "PRJ-003",
+            "name": "WCAA",
+            "client": "Ford",
+            "domain": "Automotive",
+            "role": "Lead Engineer",
+            "duration": {
+                "from": "2023-08",
+                "to": "2025-12"
+            },
+            "status": "Completed",
+            "summary": "Warranty Claims Administration Application for managing warranty claim processing.",
+            "responsibilities": [
+                "Led frontend implementation",
+                "Integrated REST APIs",
+                "Developed reusable Angular modules",
+                "Improved application performance"
+            ],
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "REST API",
+                "RxJS"
+            ]
+        },
+        {
+            "id": "PRJ-004",
+            "name": "FRED",
+            "client": "Ford",
+            "domain": "Automotive",
+            "role": "Lead Engineer",
+            "duration": {
+                "from": "2023-08",
+                "to": "2025-12"
+            },
+            "status": "Completed",
+            "summary": "Field Report Entry Database for capturing and managing engineering reports.",
+            "responsibilities": [
+                "Developed enterprise frontend",
+                "Created reusable UI components",
+                "Integrated backend services"
+            ],
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "REST API"
+            ]
+        },
+        {
+            "id": "PRJ-005",
+            "name": "Notification as a Service (NaaS)",
+            "client": "CN Rail",
+            "domain": "Transportation",
+            "role": "Senior Consultant",
+            "duration": {
+                "from": "2021-01",
+                "to": "2023-08"
+            },
+            "status": "Completed",
+            "summary": "Enterprise notification platform delivering alerts across multiple railway applications.",
+            "responsibilities": [
+                "Built frontend modules",
+                "Integrated notification services",
+                "Implemented responsive UI"
+            ],
+            "technologies": [
+                "Angular",
+                "NativeScript",
+                "Azure",
+                "Kinvey"
+            ]
+        },
+        {
+            "id": "PRJ-006",
+            "name": "Mobile Core",
+            "client": "CN Rail",
+            "domain": "Transportation",
+            "role": "Senior Consultant",
+            "duration": {
+                "from": "2021-01",
+                "to": "2023-08"
+            },
+            "status": "Completed",
+            "summary": "Reusable mobile platform shared across multiple enterprise applications.",
+            "responsibilities": [
+                "Developed shared mobile components",
+                "Maintained enterprise libraries",
+                "Improved application reusability"
+            ],
+            "technologies": [
+                "NativeScript",
+                "Angular",
+                "Kinvey"
+            ]
+        },
+        {
+            "id": "PRJ-007",
+            "name": "ACME",
+            "client": "FedEx",
+            "domain": "Logistics",
+            "role": "Senior Consultant",
+            "duration": {
+                "from": "2021-01",
+                "to": "2021-12"
+            },
+            "status": "Completed",
+            "summary": "Cloud-native enterprise platform supporting logistics workflows.",
+            "responsibilities": [
+                "Developed Vue.js frontend",
+                "Integrated Node.js APIs",
+                "Implemented reusable UI modules"
+            ],
+            "technologies": [
+                "Vue.js",
+                "Node.js",
+                "Express",
+                "REST API"
+            ]
+        },
+        {
+            "id": "PRJ-008",
+            "name": "FAST",
+            "client": "Morgan Stanley",
+            "domain": "Banking",
+            "role": "Consultant",
+            "duration": {
+                "from": "2018-01",
+                "to": "2020-12"
+            },
+            "status": "Completed",
+            "summary": "Field Assist Service Tool for internal banking operations.",
+            "responsibilities": [
+                "Developed Angular applications",
+                "Built reusable components",
+                "Integrated backend APIs"
+            ],
+            "technologies": [
+                "Angular",
+                "TypeScript",
+                "REST API"
+            ]
+        }
+    ],
+    "skills": {
+        "frontend": {
+            "title": "Frontend Development",
+            "items": [
+                "HTML5",
+                "CSS3",
+                "JavaScript",
+                "TypeScript",
+                "Angular",
+                "React",
+                "Next.js",
+                "Redux",
+                "Tailwind CSS",
+                "Bootstrap",
+                "Material UI",
+                "NativeScript"
+            ]
+        },
+        "backend": {
+            "title": "Backend Development",
+            "items": [
+                "Node.js",
+                "Express.js",
+                "Java",
+                "Python",
+                "REST API",
+                "GraphQL"
+            ]
+        },
+        "database": {
+            "title": "Database",
+            "items": [
+                "MongoDB",
+                "MySQL",
+                "Oracle",
+                "Firebase"
+            ]
+        },
+        "cloud": {
+            "title": "Cloud & DevOps",
+            "items": [
+                "Azure",
+                "Vercel",
+                "Docker",
+                "GitHub Actions",
+                "CI/CD"
+            ]
+        },
+        "tools": {
+            "title": "Tools",
+            "items": [
+                "Git",
+                "GitHub",
+                "VS Code",
+                "Postman",
+                "Jira",
+                "SonarQube",
+                "DBeaver",
+                "WinSCP",
+                "PuTTY"
+            ]
+        },
+        "architecture": {
+            "title": "Architecture",
+            "items": [
+                "Component Driven Development",
+                "Responsive Design",
+                "Micro Frontends",
+                "Reusable UI Libraries",
+                "Design Systems",
+                "Performance Optimization",
+                "Code Reviews"
+            ]
+        },
+        "ai": {
+            "title": "Artificial Intelligence",
+            "items": [
+                "OpenAI API",
+                "Google Gemini",
+                "Prompt Engineering",
+                "LangChain",
+                "Retrieval Augmented Generation (RAG)",
+                "AI Resume Analyzer",
+                "Streaming AI APIs"
+            ]
+        },
+        "methodologies": {
+            "title": "Methodologies",
+            "items": [
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Test Driven Development",
+                "Code Review",
+                "Mentoring"
+            ]
+        }
+    },
+    "educations": [
+        {
+            "id": "EDU-001",
+            "degree": "Bachelor of Engineering",
+            "specialization": "Computer Science & Engineering",
+            "institution": "Visvesvaraya Technological University (VTU)",
+            "college": "Your College Name",
+            "location": "Karnataka, India",
+            "duration": {
+                "from": "2011",
+                "to": "2015"
+            },
+            "score": "",
+            "description": "Completed Bachelor's degree with focus on software engineering, data structures, algorithms, operating systems and database management."
+        }
+    ],
+    "certifications": [
+        {
+            "id": "CERT-001",
+            "name": "Microsoft Azure Fundamentals",
+            "issuer": "Microsoft",
+            "year": "2023",
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "CERT-002",
+            "name": "Agile Practitioner",
+            "issuer": "Internal Organization",
+            "year": "2022",
+            "credentialId": "",
+            "credentialUrl": ""
+        },
+        {
+            "id": "CERT-003",
+            "name": "React Advanced Development",
+            "issuer": "",
+            "year": "",
+            "credentialId": "",
+            "credentialUrl": ""
+        }
+    ],
+    "achievements": [
+        {
+            "id": "ACH-001",
+            "title": "10+ Years of Enterprise Experience",
+            "description": "Delivered enterprise applications across Automotive, Banking and Transportation domains."
+        },
+        {
+            "id": "ACH-002",
+            "title": "Lead Engineer",
+            "description": "Leading frontend architecture, technical design and mentoring engineering teams."
+        },
+        {
+            "id": "ACH-003",
+            "title": "AI Portfolio Projects",
+            "description": "Designed and built AI-powered applications including Resume Analyzer and modern portfolio solutions."
+        },
+        {
+            "id": "ACH-004",
+            "title": "Cross-functional Collaboration",
+            "description": "Worked with global teams across India, Europe and North America."
+        }
+    ],
     "sidebar": {
-        "collapsed": false,
         "menu": [
             {
                 "title": "Home",
@@ -67,315 +593,61 @@
         ]
     },
     "dashboard": [
-  {
-    "id": 1,
-    "title": "About",
-    "description": "Professional summary and career overview.",
-    "icon": "User",
-    "href": "/about"
-  },
-  {
-    "id": 2,
-    "title": "Experience",
-    "description": "10+ years across Automotive, Banking and Transportation.",
-    "icon": "Briefcase",
-    "href": "/experience"
-  },
-  {
-    "id": 3,
-    "title": "Projects",
-    "description": "Enterprise applications delivered for global organizations.",
-    "icon": "FolderGit2",
-    "href": "/projects"
-  },
-  {
-    "id": 4,
-    "title": "Skills",
-    "description": "Frontend, Backend, Cloud and AI technologies.",
-    "icon": "BrainCircuit",
-    "href": "/skills"
-  },
-  {
-    "id": 5,
-    "title": "Resume",
-    "description": "Download my latest resume.",
-    "icon": "FileText",
-    "href": "/resume"
-  },
-  {
-    "id": 6,
-    "title": "Contact",
-    "description": "Let's connect and build something together.",
-    "icon": "Mail",
-    "href": "/contact"
-  }
-],
-    "summary": {
-        "experience": "10+",
-        "companies": 6,
-        "projects": 20,
-        "skills": 30,
-        "certifications": 5
-    },
-    "about": {
-        "title": "About Me",
-        "description": "Lead Engineer with over 10 years of experience in Automotive, Banking, Transportation and Enterprise Software Development. Passionate about building scalable frontend applications, AI-powered solutions and cloud-native systems."
-    },
-    "experience": [
         {
-            "id": "exp-001",
-            "company": "Stellantis",
-            "role": "Lead Engineer",
-            "duration": "2025 - Present",
-            "location": "Bengaluru, India",
-            "description": "Leading frontend development for connected vehicle and infotainment platforms."
+            "id": 1,
+            "title": "About Me",
+            "description": "Learn about my professional journey and engineering mindset.",
+            "route": "/about",
+            "icon": "User"
         },
         {
-            "id": "exp-002",
-            "company": "STL Digital",
-            "role": "Technical Lead",
-            "duration": "2022 - 2025",
-            "location": "Bengaluru, India",
-            "description": "Built enterprise web applications and led frontend architecture."
+            "id": 2,
+            "title": "Experience",
+            "description": "Explore my career across Automotive, Banking and Transportation.",
+            "route": "/experience",
+            "icon": "Briefcase"
         },
         {
-            "id": "exp-003",
-            "company": "Atos / Eviden",
-            "role": "Senior Consultant",
-            "duration": "2018 - 2022",
-            "location": "Bengaluru, India",
-            "description": "Developed enterprise applications for global automotive and banking clients."
+            "id": 3,
+            "title": "Projects",
+            "description": "Enterprise applications and products I've built over the years.",
+            "route": "/projects",
+            "icon": "FolderGit2"
+        },
+        {
+            "id": 4,
+            "title": "Skills",
+            "description": "Frontend, Backend, Cloud, AI and Architecture expertise.",
+            "route": "/skills",
+            "icon": "BrainCircuit"
+        },
+        {
+            "id": 5,
+            "title": "Resume",
+            "description": "Download my latest professional resume.",
+            "route": "/resume",
+            "icon": "FileText"
+        },
+        {
+            "id": 6,
+            "title": "Contact",
+            "description": "Let's connect and discuss opportunities.",
+            "route": "/contact",
+            "icon": "Mail"
         }
     ],
-    "projects": [
-        {
-            "id": "proj-001",
-            "title": "Connected Vehicle Platform",
-            "client": "Stellantis",
-            "status": "Ongoing",
-            "technology": [
-                "React",
-                "TypeScript",
-                "Node.js"
-            ]
-        },
-        {
-            "id": "proj-002",
-            "title": "AI Resume Analyzer",
-            "client": "Personal Project",
-            "status": "Completed",
-            "technology": [
-                "React",
-                "Express",
-                "MongoDB",
-                "Gemini AI"
-            ]
-        },
-        {
-            "id": "proj-003",
-            "title": "Notification as a Service",
-            "client": "CN Rail",
-            "status": "Completed",
-            "technology": [
-                "Angular",
-                "NativeScript",
-                "Kinvey"
-            ]
-        }
-    ],
-    "skills": {
-        "frontend": [
-            {
-                "id": "fe-001",
-                "name": "HTML5"
-            },
-            {
-                "id": "fe-002",
-                "name": "CSS3"
-            },
-            {
-                "id": "fe-003",
-                "name": "JavaScript"
-            },
-            {
-                "id": "fe-004",
-                "name": "TypeScript"
-            },
-            {
-                "id": "fe-005",
-                "name": "Angular"
-            },
-            {
-                "id": "fe-006",
-                "name": "React"
-            },
-            {
-                "id": "fe-007",
-                "name": "Next.js"
-            },
-            {
-                "id": "fe-008",
-                "name": "Tailwind CSS"
-            }
-        ],
-        "backend": [
-            {
-                "id": "be-001",
-                "name": "Node.js"
-            },
-            {
-                "id": "be-002",
-                "name": "Express.js"
-            },
-            {
-                "id": "be-003",
-                "name": "Python"
-            },
-            {
-                "id": "be-004",
-                "name": "Java"
-            }
-        ],
-        "database": [
-            {
-                "id": "db-001",
-                "name": "MongoDB"
-            },
-            {
-                "id": "db-002",
-                "name": "MySQL"
-            },
-            {
-                "id": "db-003",
-                "name": "Oracle"
-            }
-        ],
-        "cloud": [
-            {
-                "id": "cloud-001",
-                "name": "Azure"
-            },
-            {
-                "id": "cloud-002",
-                "name": "AWS"
-            },
-            {
-                "id": "cloud-003",
-                "name": "Vercel"
-            }
-        ],
-        "tools": [
-            {
-                "id": "tool-001",
-                "name": "Git"
-            },
-            {
-                "id": "tool-002",
-                "name": "GitHub"
-            },
-            {
-                "id": "tool-003",
-                "name": "JIRA"
-            },
-            {
-                "id": "tool-004",
-                "name": "Postman"
-            },
-            {
-                "id": "tool-005",
-                "name": "VS Code"
-            },
-            {
-                "id": "tool-006",
-                "name": "SonarQube"
-            },
-            {
-                "id": "tool-007",
-                "name": "Docker"
-            }
-        ],
-        "ai": [
-            {
-                "id": "ai-001",
-                "name": "OpenAI"
-            },
-            {
-                "id": "ai-002",
-                "name": "Google Gemini"
-            },
-            {
-                "id": "ai-003",
-                "name": "Prompt Engineering"
-            },
-            {
-                "id": "ai-004",
-                "name": "AI Agents"
-            },
-            {
-                "id": "ai-005",
-                "name": "MCP"
-            },
-            {
-                "id": "ai-006",
-                "name": "RAG"
-            }
-        ]
-    },
-    "education": [
-        {
-            "id": "edu-001",
-            "degree": "Bachelor of Engineering",
-            "branch": "Computer Science",
-            "college": "ABC Engineering College",
-            "year": "2009"
-        }
-    ],
-    "certifications": [
-        {
-            "id": "cert-001",
-            "name": "Azure Fundamentals",
-            "issuer": "Microsoft",
-            "year": "2024"
-        },
-        {
-            "id": "cert-002",
-            "name": "Generative AI Fundamentals",
-            "issuer": "Google",
-            "year": "2025"
-        },
-        {
-            "id": "cert-003",
-            "name": "React Advanced Development",
-            "issuer": "Udemy",
-            "year": "2023"
-        }
-    ],
-    "achievements": [
-        {
-            "id": "ach-001",
-            "title": "10+ Years Experience",
-            "description": "Enterprise software development across Automotive, Banking and Transportation."
-        },
-        {
-            "id": "ach-002",
-            "title": "20+ Enterprise Projects",
-            "description": "Successfully delivered global enterprise applications."
-        },
-        {
-            "id": "ach-003",
-            "title": "Lead Engineer",
-            "description": "Leading frontend development and mentoring engineering teams."
-        }
-    ],
-    "resume": {
-        "title": "Resume",
-        "file": "/resume/Kashinath-Hiremath.pdf",
-        "lastUpdated": "July 2026"
-    },
-    "contact": {
-        "email": "kashi.agathya@gmail.com",
-        "phone": "+91 9035672777",
-        "location": "Bengaluru",
-        "availability": "Open to opportunities"
+    "settings": {
+        "websiteName": "Kashinath Hiremath Portfolio",
+        "version": "1.0.0",
+        "theme": "light",
+        "defaultLanguage": "en",
+        "showExperienceOnHome": true,
+        "showProjectsOnHome": true,
+        "showSkillsOnHome": true,
+        "showAchievementsOnHome": true,
+        "showResumeButton": true,
+        "showSocialLinks": true,
+        "resumeButtonText": "Download Resume",
+        "footerText": "Designed & Developed by Kashinath Hiremath © 2026"
     }
 }

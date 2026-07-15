@@ -1,12 +1,26 @@
-import portfolio from "@/lib/portfolio";
-
+  
+import ExperienceHero from "./ExperienceHero";
+import ExperienceStats from "./ExperienceStats";
+import Timeline from "./Timeline";
+import TechnologyStack from "./TechnologyStack";
+import Achievements from "./Achievements";
+import ResumeCTA from "./ResumeCTA";
 export default function ExperiencePage() {
-  const about = portfolio.about;
-
   return (
-    <main>
-      <h1>{about.title}</h1>
-      <p>{about.description}</p>
-    </main>
+    <div className="space-y-8">
+
+      <ExperienceHero />
+
+      <ExperienceStats />
+
+      <Timeline />
+
+      <TechnologyStack />
+
+      <Achievements />
+
+      <ResumeCTA />
+
+    </div>
   );
 }

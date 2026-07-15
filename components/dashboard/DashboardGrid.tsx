@@ -32,30 +32,30 @@ export default function DashboardGrid() {
 
         <StatsCard
           title="Experience"
-          value={String(portfolio.summary.experience)}
+          value={String(portfolio.experience?.length || 0)}
           subtitle="Years"
           // route="/experience"
         />
 
         <StatsCard
           title="Projects"
-          value={String(portfolio.summary.projects)}
+          value={String(portfolio.projects?.length || 0)}
           subtitle="Completed"
           // route="/projects"
         />
 
         <StatsCard
           title="Skills"
-          value={String(portfolio.summary.skills)}
+          value={String(Object.values(portfolio.skills || {}).reduce((sum, category) => sum + (category.items?.length || 0), 0))}
           subtitle="Technologies"
           // route="/skills"
         />
 
         <StatsCard
-          title="Companies"
-          value={String(portfolio.summary.companies)}
-          subtitle="Worked With"
-          // route="/experience"
+          title="Education"
+          value={String(portfolio.educations?.length || 0)}
+          subtitle="Degrees"
+          // route="/education"
         />
 
       </div>
@@ -78,7 +78,7 @@ export default function DashboardGrid() {
       key={item.id}
       title={item.title}
       description={item.description}
-      href={item.href}
+      href={item.route}
       icon={icons[item.icon]}
     />
   );

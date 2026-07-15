@@ -8,7 +8,7 @@ export default function ProfileCard() {
       <div className="flex flex-col items-center">
 
         <Image
-          src={portfolio.personal.profileImage}
+          src={portfolio.personal.photo}
           alt={portfolio.personal.name}
           width={128}
           height={128}
@@ -21,11 +21,11 @@ export default function ProfileCard() {
         </h2>
 
         <p className="mt-2 text-slate-500">
-          {portfolio.personal.designation}
+          {portfolio.personal.currentRole.designation}
         </p>
 
         <p className="mt-6 text-center text-sm text-slate-600">
-          {portfolio.about.description}
+          {portfolio.personal.bio}
         </p>
 
       </div>
