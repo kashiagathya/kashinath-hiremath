@@ -491,6 +491,20 @@
     },
     "educations": [
         {
+            "id": "EDU-002",
+            "degree": "Master of Technology (M.Tech)",
+            "specialization": "Computer Science & Engineering",
+            "institution": "Visvesvaraya Technological University (VTU)",
+            "college": "Your College Name",
+            "location": "Karnataka, India",
+            "duration": {
+                "from": "2015",
+                "to": "2017"
+            },
+            "score": "",
+            "description": "Pursued postgraduate studies focused on advanced software engineering, distributed systems, and modern application architecture."
+        },
+        {
             "id": "EDU-001",
             "degree": "Bachelor of Engineering",
             "specialization": "Computer Science & Engineering",

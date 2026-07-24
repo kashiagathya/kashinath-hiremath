@@ -1,7 +1,6 @@
 "use client";
 
-import portfolio from "@/lib/portfolio";
-import { Download } from "lucide-react";
+import ResumeDownloadButton from "@/app/resume/ResumeDownloadButton";
 
 export default function ResumeCTA() {
 
@@ -21,16 +20,12 @@ Download my latest resume to learn more about my professional experience.
 
 </p>
 
-<a
-href={portfolio.personal.resume.file}
-className="inline-flex items-center gap-3 mt-8 rounded-xl bg-blue-600 px-8 py-4 font-semibold hover:bg-blue-700"
->
-
-<Download size={20}/>
-
-Download Resume
-
-</a>
+<div className="mt-8 inline-flex">
+	<ResumeDownloadButton
+		label="Download Resume"
+		className="inline-flex items-center gap-3 rounded-xl bg-blue-600 px-8 py-4 font-semibold text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-70"
+	/>
+</div>
 
 </section>
 
