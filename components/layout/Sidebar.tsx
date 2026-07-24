@@ -48,7 +48,7 @@ export default function Sidebar() {
             </h2>
 
             <p className="text-xs text-slate-400">
-              {portfolio.personal.designation}
+              {portfolio.personal.currentRole.designation}
             </p>
           </div>
         )}
